@@ -1,0 +1,16 @@
+How to Run:
+To run the testcases from Appendix C, 
+> python AES.py
+To run the unit tests(Requires pytest installation):
+> pytest
+The code was ran and tested in Python3. Output of one of the runs is in out.txt and was compared with compare.txt, which is the test case from FIPS document.
+
+
+Resources used: (No extra resource was used for the implementation)
+1. [FIPS document](https://csrc.nist.gov/csrc/media/publications/fips/197/final/documents/fips-197.pdf)
+2. [Youtube video](https://www.youtube.com/watch?v=gP4PqVGudtg)
+3. [Wikipedia article for AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+4. [Wikipedia article for Key expansion](https://en.wikipedia.org/wiki/AES_key_schedule)
+
+
+The code passes all the test cases as per Appendix C of FIPS document.
